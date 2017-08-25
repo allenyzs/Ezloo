@@ -1,0 +1,17 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - IQKeyboardManager (4.0.7)
+
+DEPENDENCIES:
+  - FMDB (~> 2.6.2)
+  - IQKeyboardManager (~> 4.0.7)
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+
+PODFILE CHECKSUM: 8f8f28bdb951503970a49dc6221957eabb18548e
+
+COCOAPODS: 1.2.1

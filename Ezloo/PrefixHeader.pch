@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  Ezloo
+//
+//  Created by 杨卓树 on 8/15/17.
+//  Copyright © 2017 zhuoshu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "pcHeader.h"
+#import "DBManager.h"
+#import "UserInfo.h"
+
+#endif /* PrefixHeader_pch */

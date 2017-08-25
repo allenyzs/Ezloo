@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6765A17F1F3D95030021B864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A17E1F3D95030021B864 /* main.m */; };
+		6765A1821F3D95030021B864 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A1811F3D95030021B864 /* AppDelegate.m */; };
+		6765A18A1F3D95030021B864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6765A1891F3D95030021B864 /* Assets.xcassets */; };
+		6765A18D1F3D95030021B864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6765A18B1F3D95030021B864 /* LaunchScreen.storyboard */; };
+		6765A1B41F417A0C0021B864 /* ic_account_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6765A1AE1F417A0C0021B864 /* ic_account_circle.png */; };
+		6765A1B51F417A0C0021B864 /* ic_account_circle_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 6765A1AF1F417A0C0021B864 /* ic_account_circle_tab.png */; };
+		6765A1B61F417A0C0021B864 /* ic_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 6765A1B01F417A0C0021B864 /* ic_home.png */; };
+		6765A1B71F417A0C0021B864 /* ic_home_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 6765A1B11F417A0C0021B864 /* ic_home_tab.png */; };
+		6765A1B81F417A0C0021B864 /* ic_near_me.png in Resources */ = {isa = PBXBuildFile; fileRef = 6765A1B21F417A0C0021B864 /* ic_near_me.png */; };
+		6765A1C01F4186CF0021B864 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A1BF1F4186CF0021B864 /* BaseTabBarController.m */; };
+		6765A1C31F4187A50021B864 /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A1C21F4187A50021B864 /* BaseNavController.m */; };
+		6765A1C61F4187BF0021B864 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A1C51F4187BF0021B864 /* BaseViewController.m */; };
+		6765A1C91F4188280021B864 /* EZUserMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A1C81F4188280021B864 /* EZUserMeController.m */; };
+		6765A1CC1F4188540021B864 /* EZUserNearbyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A1CB1F4188540021B864 /* EZUserNearbyController.m */; };
+		6765A1CF1F41886C0021B864 /* EZUserMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A1CE1F41886C0021B864 /* EZUserMainController.m */; };
+		6765A1D11F428BC60021B864 /* ic_near_me_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 6765A1D01F428BC60021B864 /* ic_near_me_tab.png */; };
+		6765A1FD1F42D9820021B864 /* EZLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A1FC1F42D9820021B864 /* EZLoginController.m */; };
+		6765A2001F42E0300021B864 /* loginHeaderImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6765A1FF1F42E0300021B864 /* loginHeaderImage@2x.png */; };
+		6765A2041F43D6310021B864 /* ic_account_circle_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6765A2031F43D6310021B864 /* ic_account_circle_2x.png */; };
+		6765A2061F43D6780021B864 /* ic_lock_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6765A2051F43D6780021B864 /* ic_lock_2x.png */; };
+		6765A2081F43D68F0021B864 /* ic_lock_outline_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6765A2071F43D68F0021B864 /* ic_lock_outline_2x.png */; };
+		6765A20B1F43E3750021B864 /* EZRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A20A1F43E3750021B864 /* EZRegisterController.m */; };
+		6765A20E1F4435C60021B864 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A20D1F4435C60021B864 /* DBManager.m */; };
+		6765A2111F453D2F0021B864 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6765A2101F453D2F0021B864 /* UserInfo.m */; };
+		67E622091F4ACA4B003DCF94 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622021F4ACA4B003DCF94 /* BaiduMapAPI_Base.framework */; };
+		67E6220A1F4ACA4B003DCF94 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622031F4ACA4B003DCF94 /* BaiduMapAPI_Cloud.framework */; };
+		67E6220B1F4ACA4B003DCF94 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622041F4ACA4B003DCF94 /* BaiduMapAPI_Location.framework */; };
+		67E6220C1F4ACA4B003DCF94 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622051F4ACA4B003DCF94 /* BaiduMapAPI_Map.framework */; };
+		67E6220D1F4ACA4B003DCF94 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622061F4ACA4B003DCF94 /* BaiduMapAPI_Radar.framework */; };
+		67E6220E1F4ACA4B003DCF94 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622071F4ACA4B003DCF94 /* BaiduMapAPI_Search.framework */; };
+		67E6220F1F4ACA4B003DCF94 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622081F4ACA4B003DCF94 /* BaiduMapAPI_Utils.framework */; };
+		67E622131F4ACA82003DCF94 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622111F4ACA76003DCF94 /* libcrypto.a */; };
+		67E622141F4ACA82003DCF94 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622121F4ACA76003DCF94 /* libssl.a */; };
+		67E622161F4ACC2A003DCF94 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622151F4ACC2A003DCF94 /* CoreLocation.framework */; };
+		67E622181F4ACC37003DCF94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622171F4ACC37003DCF94 /* QuartzCore.framework */; };
+		67E6221A1F4ACC40003DCF94 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622191F4ACC40003DCF94 /* OpenGLES.framework */; };
+		67E6221C1F4ACC4A003DCF94 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E6221B1F4ACC4A003DCF94 /* SystemConfiguration.framework */; };
+		67E6221E1F4ACC53003DCF94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E6221D1F4ACC53003DCF94 /* CoreGraphics.framework */; };
+		67E622201F4ACC5D003DCF94 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E6221F1F4ACC5D003DCF94 /* Security.framework */; };
+		67E622221F4ACC6F003DCF94 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622211F4ACC6F003DCF94 /* libsqlite3.0.tbd */; };
+		67E622241F4ACC7E003DCF94 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622231F4ACC7E003DCF94 /* CoreTelephony.framework */; };
+		67E622261F4ACC8E003DCF94 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622251F4ACC8E003DCF94 /* libstdc++.6.0.9.tbd */; };
+		67E622281F4ACD43003DCF94 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 67E622271F4ACD43003DCF94 /* mapapi.bundle */; };
+		8FFEFE502BC04EC55192FF69 /* libPods-Ezloo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5997C403D2B9F020F270FB /* libPods-Ezloo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E7C2C15ED40561DAE2F2F7A /* Pods-Ezloo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ezloo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ezloo/Pods-Ezloo.debug.xcconfig"; sourceTree = "<group>"; };
+		6765A17A1F3D95030021B864 /* Ezloo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ezloo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6765A17E1F3D95030021B864 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6765A1801F3D95030021B864 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6765A1811F3D95030021B864 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6765A1891F3D95030021B864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6765A18C1F3D95030021B864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6765A18E1F3D95030021B864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6765A1AE1F417A0C0021B864 /* ic_account_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_circle.png; sourceTree = "<group>"; };
+		6765A1AF1F417A0C0021B864 /* ic_account_circle_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_circle_tab.png; sourceTree = "<group>"; };
+		6765A1B01F417A0C0021B864 /* ic_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home.png; sourceTree = "<group>"; };
+		6765A1B11F417A0C0021B864 /* ic_home_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_tab.png; sourceTree = "<group>"; };
+		6765A1B21F417A0C0021B864 /* ic_near_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_near_me.png; sourceTree = "<group>"; };
+		6765A1BE1F4186CF0021B864 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		6765A1BF1F4186CF0021B864 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		6765A1C11F4187A50021B864 /* BaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavController.h; sourceTree = "<group>"; };
+		6765A1C21F4187A50021B864 /* BaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavController.m; sourceTree = "<group>"; };
+		6765A1C41F4187BF0021B864 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6765A1C51F4187BF0021B864 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6765A1C71F4188280021B864 /* EZUserMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZUserMeController.h; sourceTree = "<group>"; };
+		6765A1C81F4188280021B864 /* EZUserMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZUserMeController.m; sourceTree = "<group>"; };
+		6765A1CA1F4188540021B864 /* EZUserNearbyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZUserNearbyController.h; sourceTree = "<group>"; };
+		6765A1CB1F4188540021B864 /* EZUserNearbyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZUserNearbyController.m; sourceTree = "<group>"; };
+		6765A1CD1F41886C0021B864 /* EZUserMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZUserMainController.h; sourceTree = "<group>"; };
+		6765A1CE1F41886C0021B864 /* EZUserMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZUserMainController.m; sourceTree = "<group>"; };
+		6765A1D01F428BC60021B864 /* ic_near_me_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_near_me_tab.png; sourceTree = "<group>"; };
+		6765A1FB1F42D9820021B864 /* EZLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZLoginController.h; sourceTree = "<group>"; };
+		6765A1FC1F42D9820021B864 /* EZLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZLoginController.m; sourceTree = "<group>"; };
+		6765A1FF1F42E0300021B864 /* loginHeaderImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginHeaderImage@2x.png"; sourceTree = "<group>"; };
+		6765A2011F42E40B0021B864 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6765A2021F42E5B70021B864 /* pcHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcHeader.h; sourceTree = "<group>"; };
+		6765A2031F43D6310021B864 /* ic_account_circle_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_circle_2x.png; sourceTree = "<group>"; };
+		6765A2051F43D6780021B864 /* ic_lock_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_2x.png; sourceTree = "<group>"; };
+		6765A2071F43D68F0021B864 /* ic_lock_outline_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_outline_2x.png; sourceTree = "<group>"; };
+		6765A2091F43E3750021B864 /* EZRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRegisterController.h; sourceTree = "<group>"; };
+		6765A20A1F43E3750021B864 /* EZRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRegisterController.m; sourceTree = "<group>"; };
+		6765A20C1F4435C60021B864 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		6765A20D1F4435C60021B864 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		6765A20F1F453D2F0021B864 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		6765A2101F453D2F0021B864 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		67E622021F4ACA4B003DCF94 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = Pods/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		67E622031F4ACA4B003DCF94 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = Pods/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		67E622041F4ACA4B003DCF94 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Location.framework; path = Pods/BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		67E622051F4ACA4B003DCF94 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = Pods/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		67E622061F4ACA4B003DCF94 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Radar.framework; path = Pods/BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		67E622071F4ACA4B003DCF94 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = Pods/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		67E622081F4ACA4B003DCF94 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = Pods/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		67E622111F4ACA76003DCF94 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		67E622121F4ACA76003DCF94 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		67E622151F4ACC2A003DCF94 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		67E622171F4ACC37003DCF94 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		67E622191F4ACC40003DCF94 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		67E6221B1F4ACC4A003DCF94 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		67E6221D1F4ACC53003DCF94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67E6221F1F4ACC5D003DCF94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		67E622211F4ACC6F003DCF94 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		67E622231F4ACC7E003DCF94 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		67E622251F4ACC8E003DCF94 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		67E622271F4ACD43003DCF94 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = Pods/BaiduMapAPI_Map.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
+		9A5997C403D2B9F020F270FB /* libPods-Ezloo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ezloo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CE1618B39C3B7B2C51E1DE /* Pods-Ezloo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ezloo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ezloo/Pods-Ezloo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6765A1771F3D95030021B864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E622261F4ACC8E003DCF94 /* libstdc++.6.0.9.tbd in Frameworks */,
+				67E622241F4ACC7E003DCF94 /* CoreTelephony.framework in Frameworks */,
+				67E622221F4ACC6F003DCF94 /* libsqlite3.0.tbd in Frameworks */,
+				67E622201F4ACC5D003DCF94 /* Security.framework in Frameworks */,
+				67E6221E1F4ACC53003DCF94 /* CoreGraphics.framework in Frameworks */,
+				67E6221C1F4ACC4A003DCF94 /* SystemConfiguration.framework in Frameworks */,
+				67E6221A1F4ACC40003DCF94 /* OpenGLES.framework in Frameworks */,
+				67E622181F4ACC37003DCF94 /* QuartzCore.framework in Frameworks */,
+				67E622161F4ACC2A003DCF94 /* CoreLocation.framework in Frameworks */,
+				67E622131F4ACA82003DCF94 /* libcrypto.a in Frameworks */,
+				67E622141F4ACA82003DCF94 /* libssl.a in Frameworks */,
+				67E622091F4ACA4B003DCF94 /* BaiduMapAPI_Base.framework in Frameworks */,
+				67E6220A1F4ACA4B003DCF94 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				67E6220B1F4ACA4B003DCF94 /* BaiduMapAPI_Location.framework in Frameworks */,
+				67E6220C1F4ACA4B003DCF94 /* BaiduMapAPI_Map.framework in Frameworks */,
+				67E6220D1F4ACA4B003DCF94 /* BaiduMapAPI_Radar.framework in Frameworks */,
+				67E6220E1F4ACA4B003DCF94 /* BaiduMapAPI_Search.framework in Frameworks */,
+				67E6220F1F4ACA4B003DCF94 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				8FFEFE502BC04EC55192FF69 /* libPods-Ezloo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6765A1711F3D95030021B864 = {
+			isa = PBXGroup;
+			children = (
+				67E622271F4ACD43003DCF94 /* mapapi.bundle */,
+				6765A17C1F3D95030021B864 /* Ezloo */,
+				6765A17B1F3D95030021B864 /* Products */,
+				A324366466FB65ED03DFEE20 /* Pods */,
+				DAE64130A1651C46837092C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6765A17B1F3D95030021B864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6765A17A1F3D95030021B864 /* Ezloo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6765A17C1F3D95030021B864 /* Ezloo */ = {
+			isa = PBXGroup;
+			children = (
+				6765A1FE1F42E0080021B864 /* ImageSource */,
+				6765A1F71F42D9460021B864 /* LoginAndRegister */,
+				6765A1BD1F41868C0021B864 /* Base */,
+				6765A1AD1F417A0C0021B864 /* TabBarIcon */,
+				6765A19B1F3DA6A60021B864 /* Me */,
+				6765A19C1F3DA6A60021B864 /* Nearby */,
+				6765A1971F3DA6400021B864 /* Main */,
+				6765A1801F3D95030021B864 /* AppDelegate.h */,
+				6765A1811F3D95030021B864 /* AppDelegate.m */,
+				6765A1891F3D95030021B864 /* Assets.xcassets */,
+				6765A18B1F3D95030021B864 /* LaunchScreen.storyboard */,
+				6765A18E1F3D95030021B864 /* Info.plist */,
+				6765A17D1F3D95030021B864 /* Supporting Files */,
+				6765A2011F42E40B0021B864 /* PrefixHeader.pch */,
+				6765A2021F42E5B70021B864 /* pcHeader.h */,
+			);
+			path = Ezloo;
+			sourceTree = "<group>";
+		};
+		6765A17D1F3D95030021B864 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6765A17E1F3D95030021B864 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6765A1971F3DA6400021B864 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6765A1CD1F41886C0021B864 /* EZUserMainController.h */,
+				6765A1CE1F41886C0021B864 /* EZUserMainController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6765A19B1F3DA6A60021B864 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				6765A1C71F4188280021B864 /* EZUserMeController.h */,
+				6765A1C81F4188280021B864 /* EZUserMeController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		6765A19C1F3DA6A60021B864 /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				6765A1CA1F4188540021B864 /* EZUserNearbyController.h */,
+				6765A1CB1F4188540021B864 /* EZUserNearbyController.m */,
+			);
+			path = Nearby;
+			sourceTree = "<group>";
+		};
+		6765A1AD1F417A0C0021B864 /* TabBarIcon */ = {
+			isa = PBXGroup;
+			children = (
+				6765A1AE1F417A0C0021B864 /* ic_account_circle.png */,
+				6765A1AF1F417A0C0021B864 /* ic_account_circle_tab.png */,
+				6765A1B01F417A0C0021B864 /* ic_home.png */,
+				6765A1B11F417A0C0021B864 /* ic_home_tab.png */,
+				6765A1B21F417A0C0021B864 /* ic_near_me.png */,
+				6765A1D01F428BC60021B864 /* ic_near_me_tab.png */,
+			);
+			path = TabBarIcon;
+			sourceTree = "<group>";
+		};
+		6765A1BD1F41868C0021B864 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6765A1BE1F4186CF0021B864 /* BaseTabBarController.h */,
+				6765A1BF1F4186CF0021B864 /* BaseTabBarController.m */,
+				6765A1C11F4187A50021B864 /* BaseNavController.h */,
+				6765A1C21F4187A50021B864 /* BaseNavController.m */,
+				6765A1C41F4187BF0021B864 /* BaseViewController.h */,
+				6765A1C51F4187BF0021B864 /* BaseViewController.m */,
+				6765A20C1F4435C60021B864 /* DBManager.h */,
+				6765A20D1F4435C60021B864 /* DBManager.m */,
+				6765A20F1F453D2F0021B864 /* UserInfo.h */,
+				6765A2101F453D2F0021B864 /* UserInfo.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6765A1F71F42D9460021B864 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				6765A1FB1F42D9820021B864 /* EZLoginController.h */,
+				6765A1FC1F42D9820021B864 /* EZLoginController.m */,
+				6765A2091F43E3750021B864 /* EZRegisterController.h */,
+				6765A20A1F43E3750021B864 /* EZRegisterController.m */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		6765A1FE1F42E0080021B864 /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				6765A1FF1F42E0300021B864 /* loginHeaderImage@2x.png */,
+				6765A2031F43D6310021B864 /* ic_account_circle_2x.png */,
+				6765A2051F43D6780021B864 /* ic_lock_2x.png */,
+				6765A2071F43D68F0021B864 /* ic_lock_outline_2x.png */,
+			);
+			path = ImageSource;
+			sourceTree = "<group>";
+		};
+		67E622101F4ACA76003DCF94 /* thirdlibs */ = {
+			isa = PBXGroup;
+			children = (
+				67E622111F4ACA76003DCF94 /* libcrypto.a */,
+				67E622121F4ACA76003DCF94 /* libssl.a */,
+			);
+			name = thirdlibs;
+			path = Pods/thirdlibs;
+			sourceTree = "<group>";
+		};
+		A324366466FB65ED03DFEE20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E7C2C15ED40561DAE2F2F7A /* Pods-Ezloo.debug.xcconfig */,
+				A7CE1618B39C3B7B2C51E1DE /* Pods-Ezloo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAE64130A1651C46837092C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67E622251F4ACC8E003DCF94 /* libstdc++.6.0.9.tbd */,
+				67E622231F4ACC7E003DCF94 /* CoreTelephony.framework */,
+				67E622211F4ACC6F003DCF94 /* libsqlite3.0.tbd */,
+				67E6221F1F4ACC5D003DCF94 /* Security.framework */,
+				67E6221D1F4ACC53003DCF94 /* CoreGraphics.framework */,
+				67E6221B1F4ACC4A003DCF94 /* SystemConfiguration.framework */,
+				67E622191F4ACC40003DCF94 /* OpenGLES.framework */,
+				67E622171F4ACC37003DCF94 /* QuartzCore.framework */,
+				67E622151F4ACC2A003DCF94 /* CoreLocation.framework */,
+				67E622101F4ACA76003DCF94 /* thirdlibs */,
+				67E622021F4ACA4B003DCF94 /* BaiduMapAPI_Base.framework */,
+				67E622031F4ACA4B003DCF94 /* BaiduMapAPI_Cloud.framework */,
+				67E622041F4ACA4B003DCF94 /* BaiduMapAPI_Location.framework */,
+				67E622051F4ACA4B003DCF94 /* BaiduMapAPI_Map.framework */,
+				67E622061F4ACA4B003DCF94 /* BaiduMapAPI_Radar.framework */,
+				67E622071F4ACA4B003DCF94 /* BaiduMapAPI_Search.framework */,
+				67E622081F4ACA4B003DCF94 /* BaiduMapAPI_Utils.framework */,
+				9A5997C403D2B9F020F270FB /* libPods-Ezloo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6765A1791F3D95030021B864 /* Ezloo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6765A1911F3D95030021B864 /* Build configuration list for PBXNativeTarget "Ezloo" */;
+			buildPhases = (
+				8A5059654281A75D7A546CA5 /* [CP] Check Pods Manifest.lock */,
+				6765A1761F3D95030021B864 /* Sources */,
+				6765A1771F3D95030021B864 /* Frameworks */,
+				6765A1781F3D95030021B864 /* Resources */,
+				B207D96609B90ED524B3F230 /* [CP] Embed Pods Frameworks */,
+				7BDE95797F6D60429D600894 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ezloo;
+			productName = Ezloo;
+			productReference = 6765A17A1F3D95030021B864 /* Ezloo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6765A1721F3D95030021B864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhuoshu;
+				TargetAttributes = {
+					6765A1791F3D95030021B864 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4NS58P8Y5U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6765A1751F3D95030021B864 /* Build configuration list for PBXProject "Ezloo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6765A1711F3D95030021B864;
+			productRefGroup = 6765A17B1F3D95030021B864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6765A1791F3D95030021B864 /* Ezloo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6765A1781F3D95030021B864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6765A1B71F417A0C0021B864 /* ic_home_tab.png in Resources */,
+				6765A2081F43D68F0021B864 /* ic_lock_outline_2x.png in Resources */,
+				67E622281F4ACD43003DCF94 /* mapapi.bundle in Resources */,
+				6765A2001F42E0300021B864 /* loginHeaderImage@2x.png in Resources */,
+				6765A1B41F417A0C0021B864 /* ic_account_circle.png in Resources */,
+				6765A2041F43D6310021B864 /* ic_account_circle_2x.png in Resources */,
+				6765A18D1F3D95030021B864 /* LaunchScreen.storyboard in Resources */,
+				6765A18A1F3D95030021B864 /* Assets.xcassets in Resources */,
+				6765A1B51F417A0C0021B864 /* ic_account_circle_tab.png in Resources */,
+				6765A1D11F428BC60021B864 /* ic_near_me_tab.png in Resources */,
+				6765A2061F43D6780021B864 /* ic_lock_2x.png in Resources */,
+				6765A1B61F417A0C0021B864 /* ic_home.png in Resources */,
+				6765A1B81F417A0C0021B864 /* ic_near_me.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BDE95797F6D60429D600894 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ezloo/Pods-Ezloo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A5059654281A75D7A546CA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B207D96609B90ED524B3F230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ezloo/Pods-Ezloo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6765A1761F3D95030021B864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6765A1CF1F41886C0021B864 /* EZUserMainController.m in Sources */,
+				6765A20B1F43E3750021B864 /* EZRegisterController.m in Sources */,
+				6765A1C61F4187BF0021B864 /* BaseViewController.m in Sources */,
+				6765A1C91F4188280021B864 /* EZUserMeController.m in Sources */,
+				6765A2111F453D2F0021B864 /* UserInfo.m in Sources */,
+				6765A1821F3D95030021B864 /* AppDelegate.m in Sources */,
+				6765A1CC1F4188540021B864 /* EZUserNearbyController.m in Sources */,
+				6765A1C01F4186CF0021B864 /* BaseTabBarController.m in Sources */,
+				6765A20E1F4435C60021B864 /* DBManager.m in Sources */,
+				6765A17F1F3D95030021B864 /* main.m in Sources */,
+				6765A1FD1F42D9820021B864 /* EZLoginController.m in Sources */,
+				6765A1C31F4187A50021B864 /* BaseNavController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6765A18B1F3D95030021B864 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6765A18C1F3D95030021B864 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6765A18F1F3D95030021B864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6765A1901F3D95030021B864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6765A1921F3D95030021B864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7C2C15ED40561DAE2F2F7A /* Pods-Ezloo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4NS58P8Y5U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Ezloo/PrefixHeader.pch";
+				INFOPLIST_FILE = Ezloo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoshu.Ezloo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6765A1931F3D95030021B864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CE1618B39C3B7B2C51E1DE /* Pods-Ezloo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4NS58P8Y5U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Ezloo/PrefixHeader.pch";
+				INFOPLIST_FILE = Ezloo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuoshu.Ezloo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6765A1751F3D95030021B864 /* Build configuration list for PBXProject "Ezloo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6765A18F1F3D95030021B864 /* Debug */,
+				6765A1901F3D95030021B864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6765A1911F3D95030021B864 /* Build configuration list for PBXNativeTarget "Ezloo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6765A1921F3D95030021B864 /* Debug */,
+				6765A1931F3D95030021B864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6765A1721F3D95030021B864 /* Project object */;
+}
