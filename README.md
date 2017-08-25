@@ -1,4 +1,5 @@
 ![image](https://github.com/allenyzs/Ezloo/blob/master/UI%20design/App%20Icon.png)
+---
 Ezloo - A solution for restroom
 ===============================
 1.	Basic guideline 
