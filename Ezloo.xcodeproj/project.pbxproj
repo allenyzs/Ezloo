@@ -50,6 +50,7 @@
 		67E622241F4ACC7E003DCF94 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622231F4ACC7E003DCF94 /* CoreTelephony.framework */; };
 		67E622261F4ACC8E003DCF94 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E622251F4ACC8E003DCF94 /* libstdc++.6.0.9.tbd */; };
 		67E622281F4ACD43003DCF94 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 67E622271F4ACD43003DCF94 /* mapapi.bundle */; };
+		67E6222B1F500BCB003DCF94 /* looInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E6222A1F500BCB003DCF94 /* looInfo.m */; };
 		8FFEFE502BC04EC55192FF69 /* libPods-Ezloo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5997C403D2B9F020F270FB /* libPods-Ezloo.a */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +114,8 @@
 		67E622231F4ACC7E003DCF94 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		67E622251F4ACC8E003DCF94 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		67E622271F4ACD43003DCF94 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = Pods/BaiduMapAPI_Map.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
+		67E622291F500BCB003DCF94 /* looInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = looInfo.h; sourceTree = "<group>"; };
+		67E6222A1F500BCB003DCF94 /* looInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = looInfo.m; sourceTree = "<group>"; };
 		9A5997C403D2B9F020F270FB /* libPods-Ezloo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ezloo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CE1618B39C3B7B2C51E1DE /* Pods-Ezloo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ezloo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ezloo/Pods-Ezloo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -249,6 +252,8 @@
 				6765A20D1F4435C60021B864 /* DBManager.m */,
 				6765A20F1F453D2F0021B864 /* UserInfo.h */,
 				6765A2101F453D2F0021B864 /* UserInfo.m */,
+				67E622291F500BCB003DCF94 /* looInfo.h */,
+				67E6222A1F500BCB003DCF94 /* looInfo.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -464,6 +469,7 @@
 				6765A17F1F3D95030021B864 /* main.m in Sources */,
 				6765A1FD1F42D9820021B864 /* EZLoginController.m in Sources */,
 				6765A1C31F4187A50021B864 /* BaseNavController.m in Sources */,
+				67E6222B1F500BCB003DCF94 /* looInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

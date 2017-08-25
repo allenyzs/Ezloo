@@ -17,7 +17,6 @@
     }
     return self;
 }
-
 //- (BOOL)insertUserInfo{
 //    NSString *insertSQL = @"INSERT INTO UserInfo(userName,passWord) VALUES(?,?)";
 //    __block BOOL ret = NO;

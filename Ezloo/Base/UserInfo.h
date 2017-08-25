@@ -14,12 +14,9 @@
 @property(nonatomic,strong)NSArray *itemArray;
 - (instancetype)initWithInfoDic:(NSDictionary *)dic;
 
-- (BOOL)insertUserInfo;
-- (BOOL)saveUserInfo;
 - (BOOL)saveOrInsertUserInfo;
-- (BOOL)deleteFromUserInfo;
-+ (NSArray *)doLoadAllObjectFromUserInfo;
-// 
+//+ (NSArray *)doLoadAllObjectFromUserInfo;
+//
 + (UserInfo *)doLoadObjectFromUserInfoWhereUserName:(NSString *)userName;
-+ (void)saveObjectsToUserInfoAsync:(NSArray *)objects withComplection:(void (^)(BOOL succeed))complection;
+
 @end

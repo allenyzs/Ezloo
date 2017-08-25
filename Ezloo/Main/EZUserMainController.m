@@ -13,7 +13,7 @@
 #import <BaiduMapAPI_Location/BMKLocationComponent.h>
 #import <BaiduMapAPI_Search/BMKGeocodeSearch.h>
 #import <BaiduMapAPI_Search/BMKPoiSearchType.h>
-
+#import "looInfo.h"
 //#define kBaiduMapMaxHeight 300
 //#define kCurrentLocationBtnWH 50
 //#define kPading 10
@@ -177,6 +177,17 @@
         [_mapView removeAnnotations:array];
         array = [NSArray arrayWithArray:_mapView.overlays];
         [_mapView removeOverlays:array];
+        
+        NSMutableArray *looArray = [[NSMutableArray alloc] init];
+        for (BMKPoiInfo *obj in result.poiInfoList) {
+            looInfo *item = [[looInfo alloc] init];
+            item.looName = obj.name;
+            item.looAddress = obj.address;
+            [looArray addObject:item];
+        }
+        [looInfo saveObjectsToLooInfoAsync:looArray withComplection:^(BOOL succeed) {
+            
+        }];
         
         //在此处理正常结果
         for (int i = 0; i < result.poiInfoList.count; i++)

@@ -25,12 +25,22 @@
 - (instancetype) init{
     if (self == [super init]) {
         [self.databaseQueue inDatabase:^(FMDatabase *db){
+
+#pragma mark - UserInfo
             NSString *userInfoSQL = @"create table if not exists UserInfo(username text, password text)";
             if (![db executeUpdate:userInfoSQL]) {
                 NSLog(@"fail to create table of userInfo");
             } else{
                 NSLog(@"succeed to create table of userInfo");
             }
+#pragma mark - looInfo
+            NSString *looInfoSQL = @"create table if not exists looInfo(looName text, looAddress text)";
+            if (![db executeUpdate:looInfoSQL]) {
+                NSLog(@"fail to create table of looInfo");
+            } else{
+                NSLog(@"succeed to create table of looInfo");
+            }
+            
         }];
     }
     return self;
