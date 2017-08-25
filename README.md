@@ -1,15 +1,12 @@
-# Ezloo
-
 ![image](https://github.com/allenyzs/Ezloo/blob/master/UI%20design/App%20Icon.png)
----
-
----
+Ezloo - A solution for restroom
+===============================
 1.	Basic guideline 
 
 (1) Background: Nowadays, with the increasing population in Earth, people have not only higher demands but also higher criterions for restroom. Sometimes people get annoyed because of the poor cleanliness in some washroom. Sometimes people have to pee so bad but cannot find a toilet. 
 (2) Plan: Ezloo app is designed for helping people to access the location of toilet nearby and the rating of it. People can leave comment and rating about it.
 (3) Analysis: Although there exists app that can help people find a toilet in the market, it is poorly designed and contains ads. Our app is more competitive.  
----
+============
 2.	Function
 
 (1)	Register and login
