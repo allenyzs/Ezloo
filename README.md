@@ -2,6 +2,10 @@
 
 Ezloo - A solution for restroom
 ===============================
+[![API](https://img.shields.io/badge/build-BaiduMap-ccffff.svg)](http://lbsyun.baidu.com/index.php?title=%E9%A6%96%E9%A1%B5)
+[![Database](https://img.shields.io/badge/FMDB-2.6.2-0cd6b3.svg)](https://github.com/ccgus/fmdb/)
+[![Keyboard](https://img.shields.io/badge/IQkeyboard-4.0.7-brightgreen.svg)](https://github.com/hackiftekhar/IQKeyboardManager)
+
 ### 1.	Basic guideline 
 #### (1) Background: Nowadays, with the increasing population in Earth, people have not only higher demands but also higher criterions for restroom. Sometimes people get annoyed because of the poor cleanliness in some washroom. Sometimes people have to pee so bad but cannot find a toilet. 
 #### (2) Plan: Ezloo app is designed for helping people to access the location of toilet nearby and the rating of it. People can leave comment and rating about it.
