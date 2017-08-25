@@ -2,7 +2,7 @@
 
 Ezloo - A solution for restroom
 ===============================
-[![API](https://img.shields.io/badge/build-BaiduMap-ccffff.svg)](http://lbsyun.baidu.com/index.php?title=%E9%A6%96%E9%A1%B5)
+[![API](https://img.shields.io/badge/BaiduMap-v3.3.4-ccffff.svg)](http://lbsyun.baidu.com/index.php?title=%E9%A6%96%E9%A1%B5)
 [![Database](https://img.shields.io/badge/FMDB-2.6.2-0cd6b3.svg)](https://github.com/ccgus/fmdb/)
 [![Keyboard](https://img.shields.io/badge/IQkeyboard-4.0.7-brightgreen.svg)](https://github.com/hackiftekhar/IQKeyboardManager)
 
